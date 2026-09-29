@@ -141,6 +141,7 @@ CVCI_ROUTE_SET=220 \
 ```
 
 默认读取 `route/bench2drive220.xml`，结果写入 `results/220`。
+如果该目录已经包含完整结果，启动器会按断点续跑规则跳过对应路线；从头复现时请使用 3.6 节所示的独立输出目录。
 
 ### 3.3 运行全部极端场景路线
 
@@ -150,6 +151,7 @@ CVCI_ROUTE_SET=144 \
 ```
 
 默认读取 `route/CVCI_BenchMark.xml`，结果写入 `results/144`。
+如果该目录已经包含完整结果，启动器会按断点续跑规则跳过对应路线；从头复现时请使用 3.6 节所示的独立输出目录。
 
 `CVCI_ROUTE_SET` 支持以下取值：
 
@@ -216,6 +218,14 @@ CVCI_MAX_ATTEMPTS=4 \
 ```bash
 CVCI_ROUTE_SET=220 \
 CVCI_OUTPUT_ROOT="${REPO_ROOT}/results/reproduction_220" \
+  bash codes/run_all_routes.sh 2100 8100
+```
+
+极端场景从空目录复现时使用：
+
+```bash
+CVCI_ROUTE_SET=144 \
+CVCI_OUTPUT_ROOT="${REPO_ROOT}/results/reproduction_144" \
   bash codes/run_all_routes.sh 2100 8100
 ```
 
