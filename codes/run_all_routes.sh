@@ -100,7 +100,7 @@ fi
 CONFIG="${DT_ROOT}/adzoo/drivetransformer/configs/drivetransformer/drivetransformer_large.py"
 EXTREME_CHECKPOINT="${CVCI_EXTREME_CHECKPOINT:-${PACKAGE_ROOT}/weights/iter_25000.pth}"
 ORDINARY_CHECKPOINT="${CVCI_ORDINARY_CHECKPOINT:-${PACKAGE_ROOT}/weights/drivetransformer_large.pth}"
-ORDINARY_CLASSIFIER_MODEL="${CVCI_ORDINARY_CLASSIFIER_MODEL:-${PACKAGE_ROOT}/data/classifier_model.json}"
+ORDINARY_CLASSIFIER_MODEL="${CVCI_ORDINARY_CLASSIFIER_MODEL:-${CODES_ROOT}/data/classifier_model.json}"
 if [[ "${EXTREME_CHECKPOINT}" != /* ]]; then
     EXTREME_CHECKPOINT="$(make_absolute "${EXTREME_CHECKPOINT}")"
 fi
@@ -248,7 +248,7 @@ if [[ -z "${CARLA_ROOT}" ]]; then
     echo "CARLA_ROOT is required and must point to a CARLA installation" >&2
     exit 2
 fi
-export PYTHONPATH="${PACKAGE_ROOT}:${CODES_ROOT}/runtime_path:${CODES_ROOT}/code:${DT_ROOT}:$(dirname "${DT_ROOT}"):${CVCI_ROOT}:${CVCI_ROOT}/leaderboard:${CVCI_ROOT}/scenario_runner:${CARLA_ROOT}/PythonAPI:${CARLA_ROOT}/PythonAPI/carla:${CARLA_ROOT}/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg:${OPENPCDET_ROOT}:${PYTHONPATH:-}"
+export PYTHONPATH="${CODES_ROOT}/runtime_path:${CODES_ROOT}/code:${DT_ROOT}:$(dirname "${DT_ROOT}"):${CVCI_ROOT}:${CVCI_ROOT}/leaderboard:${CVCI_ROOT}/scenario_runner:${CARLA_ROOT}/PythonAPI:${CARLA_ROOT}/PythonAPI/carla:${CARLA_ROOT}/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg:${OPENPCDET_ROOT}:${PYTHONPATH:-}"
 
 test -x "${PYTHON}"
 test -x "${CARLA_ROOT}/CarlaUE4.sh"

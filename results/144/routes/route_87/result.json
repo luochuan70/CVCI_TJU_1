@@ -1,0 +1,237 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Failed",
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 11.749,
+                "red_light": 0.0,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.0,
+                "min_speed_infractions": 211.475,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 57.306,
+                "score_route": 95.51,
+                "score_penalty": 0.6,
+                "score_challenge_base": 80.0,
+                "score_challenge_gate": 1.0,
+                "score_challenge_penalty": 0.6,
+                "score_challenge": 48.0
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0,
+                "score_challenge_base": 0,
+                "score_challenge_gate": 0,
+                "score_challenge_penalty": 0,
+                "score_challenge": 0
+            },
+            "meta": {
+                "total_length": 89.118,
+                "duration_game": 70.95,
+                "duration_system": 250.281,
+                "exceptions": [
+                    [
+                        "RouteScenario_87_rep0",
+                        0,
+                        "Failed - Agent crashed"
+                    ]
+                ],
+                "scenario_types": [
+                    "BrokenDownVehicle"
+                ],
+                "challenge_common_facts": [
+                    {
+                        "route_id": "RouteScenario_87_rep0",
+                        "scenario_type": "BrokenDownVehicle",
+                        "facts": {
+                            "collision": true,
+                            "collision_penalty": 0.6,
+                            "outside_route": false,
+                            "running_red_light": false,
+                            "running_stop": false,
+                            "agent_blocked": false,
+                            "route_completed": false
+                        }
+                    }
+                ],
+                "challenge_private_facts": [
+                    {
+                        "route_id": "RouteScenario_87_rep0",
+                        "scenario_type": "BrokenDownVehicle",
+                        "facts": {
+                            "brake_response": true,
+                            "safe_bypass": true,
+                            "resume_route": false
+                        }
+                    }
+                ],
+                "challenge_score_breakdown": [
+                    {
+                        "route_id": "RouteScenario_87_rep0",
+                        "scenario_type": "BrokenDownVehicle",
+                        "score_detail": {
+                            "base_score": 80.0,
+                            "gate": 1.0,
+                            "penalty": 0.6,
+                            "final_score": 48.0
+                        }
+                    }
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_87_rep0",
+                "scenario_name": "BrokenDownVehicle_S40_DS",
+                "weather_id": null,
+                "save_name": "RouteScenario_87_rep0_Town06_BrokenDownVehicle_S40_DS_None_08_26_03_02_02",
+                "town_name": "Town06",
+                "status": "Failed - Agent crashed",
+                "num_infractions": 19,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.volkswagen.t2 and id=125 at (x=-128.637, y=-13.872, z=-0.005)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 95.51,
+                    "score_penalty": 0.6,
+                    "score_composed": 57.306,
+                    "score_challenge_base": 80.0,
+                    "score_challenge_gate": 1.0,
+                    "score_challenge_penalty": 0.6,
+                    "score_challenge": 48.0
+                },
+                "common_facts": {
+                    "collision": true,
+                    "collision_penalty": 0.6,
+                    "outside_route": false,
+                    "running_red_light": false,
+                    "running_stop": false,
+                    "agent_blocked": false,
+                    "route_completed": false
+                },
+                "private_facts": {
+                    "brake_response": true,
+                    "safe_bypass": true,
+                    "resume_route": false
+                },
+                "score_detail": {
+                    "base_score": 80.0,
+                    "gate": 1.0,
+                    "penalty": 0.6,
+                    "final_score": 48.0
+                },
+                "meta": {
+                    "route_length": 89.118,
+                    "duration_game": 70.95,
+                    "duration_system": 250.281,
+                    "scenario_type": "BrokenDownVehicle"
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_lidar",
+        "carla_radar"
+    ],
+    "values": [
+        "57.306",
+        "95.51",
+        "0.6",
+        "80.0",
+        "1.0",
+        "0.6",
+        "48.0",
+        "0.0",
+        "11.749",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "211.475"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Avg. challenge base score",
+        "Avg. challenge gate",
+        "Avg. challenge penalty",
+        "Avg. challenge final score",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

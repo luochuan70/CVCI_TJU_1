@@ -1,0 +1,221 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Failed",
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.0,
+                "red_light": 0.0,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.003,
+                "min_speed_infractions": 212.893,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 53.223,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 21.733562,
+                "score_route": 25.33,
+                "score_penalty": 0.858017,
+                "score_challenge_base": 0.0,
+                "score_challenge_gate": 1.0,
+                "score_challenge_penalty": 1.0,
+                "score_challenge": 0.0
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0,
+                "score_challenge_base": 0,
+                "score_challenge_gate": 0,
+                "score_challenge_penalty": 0,
+                "score_challenge": 0
+            },
+            "meta": {
+                "total_length": 74.176,
+                "duration_game": 66.1,
+                "duration_system": 380.424,
+                "exceptions": [
+                    [
+                        "RouteScenario_2913_rep0",
+                        0,
+                        "Failed - Agent got blocked"
+                    ]
+                ],
+                "scenario_types": [
+                    "OppositeVehicleTakingPriority"
+                ],
+                "challenge_common_facts": [
+                    {
+                        "route_id": "RouteScenario_2913_rep0",
+                        "scenario_type": "OppositeVehicleTakingPriority",
+                        "facts": {
+                            "collision": false,
+                            "collision_penalty": 1.0,
+                            "outside_route": true,
+                            "running_red_light": false,
+                            "running_stop": false,
+                            "agent_blocked": true,
+                            "route_completed": false
+                        }
+                    }
+                ],
+                "challenge_private_facts": [
+                    {
+                        "route_id": "RouteScenario_2913_rep0",
+                        "scenario_type": "OppositeVehicleTakingPriority",
+                        "facts": {}
+                    }
+                ],
+                "challenge_score_breakdown": [
+                    {
+                        "route_id": "RouteScenario_2913_rep0",
+                        "scenario_type": "OppositeVehicleTakingPriority",
+                        "score_detail": {
+                            "base_score": 0.0,
+                            "gate": 1.0,
+                            "penalty": 1.0,
+                            "final_score": 0.0,
+                            "scoring_mode": "standard_only_unsupported_scenario",
+                            "scenario_type": "OppositeVehicleTakingPriority"
+                        }
+                    }
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_2913_rep0",
+                "scenario_name": "OppositeVehicleTakingPriority_1",
+                "weather_id": "21",
+                "save_name": "RouteScenario_2913_rep0_Town12_OppositeVehicleTakingPriority_1_21_08_26_17_15_06",
+                "town_name": "Town12",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 6,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 2.668 meters (14.2% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=2910.514, y=2526.088, z=349.23)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 25.33,
+                    "score_penalty": 0.858017,
+                    "score_composed": 21.733562,
+                    "score_challenge_base": 0.0,
+                    "score_challenge_gate": 1.0,
+                    "score_challenge_penalty": 1.0,
+                    "score_challenge": 0.0
+                },
+                "common_facts": {
+                    "collision": false,
+                    "collision_penalty": 1.0,
+                    "outside_route": true,
+                    "running_red_light": false,
+                    "running_stop": false,
+                    "agent_blocked": true,
+                    "route_completed": false
+                },
+                "private_facts": {},
+                "score_detail": {
+                    "base_score": 0.0,
+                    "gate": 1.0,
+                    "penalty": 1.0,
+                    "final_score": 0.0,
+                    "scoring_mode": "standard_only_unsupported_scenario",
+                    "scenario_type": "OppositeVehicleTakingPriority"
+                },
+                "meta": {
+                    "route_length": 74.176,
+                    "duration_game": 66.1,
+                    "duration_system": 380.424,
+                    "scenario_type": "OppositeVehicleTakingPriority"
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_lidar",
+        "carla_radar"
+    ],
+    "values": [
+        "21.733562",
+        "25.33",
+        "0.858017",
+        "0.0",
+        "1.0",
+        "1.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.003",
+        "0.0",
+        "0.0",
+        "53.223",
+        "0.0",
+        "0.0",
+        "212.893"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Avg. challenge base score",
+        "Avg. challenge gate",
+        "Avg. challenge penalty",
+        "Avg. challenge final score",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

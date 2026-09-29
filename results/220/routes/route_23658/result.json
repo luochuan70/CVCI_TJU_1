@@ -1,0 +1,232 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Failed",
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 24.023,
+                "red_light": 0.0,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.0,
+                "min_speed_infractions": 168.16,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 12.011,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 28.584,
+                "score_route": 79.4,
+                "score_penalty": 0.36,
+                "score_challenge_base": 0.0,
+                "score_challenge_gate": 1.0,
+                "score_challenge_penalty": 0.36,
+                "score_challenge": 0.0
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0,
+                "score_challenge_base": 0,
+                "score_challenge_gate": 0,
+                "score_challenge_penalty": 0,
+                "score_challenge": 0
+            },
+            "meta": {
+                "total_length": 104.854,
+                "duration_game": 77.3,
+                "duration_system": 478.483,
+                "exceptions": [
+                    [
+                        "RouteScenario_23658_rep0",
+                        0,
+                        "Failed - Agent got blocked"
+                    ]
+                ],
+                "scenario_types": [
+                    "HighwayExit"
+                ],
+                "challenge_common_facts": [
+                    {
+                        "route_id": "RouteScenario_23658_rep0",
+                        "scenario_type": "HighwayExit",
+                        "facts": {
+                            "collision": true,
+                            "collision_penalty": 0.36,
+                            "outside_route": false,
+                            "running_red_light": false,
+                            "running_stop": false,
+                            "agent_blocked": true,
+                            "route_completed": false
+                        }
+                    }
+                ],
+                "challenge_private_facts": [
+                    {
+                        "route_id": "RouteScenario_23658_rep0",
+                        "scenario_type": "HighwayExit",
+                        "facts": {}
+                    }
+                ],
+                "challenge_score_breakdown": [
+                    {
+                        "route_id": "RouteScenario_23658_rep0",
+                        "scenario_type": "HighwayExit",
+                        "score_detail": {
+                            "base_score": 0.0,
+                            "gate": 1.0,
+                            "penalty": 0.36,
+                            "final_score": 0.0,
+                            "scoring_mode": "standard_only_unsupported_scenario",
+                            "scenario_type": "HighwayExit"
+                        }
+                    }
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_23658_rep0",
+                "scenario_name": "HighwayExit_1",
+                "weather_id": "2",
+                "save_name": "RouteScenario_23658_rep0_Town12_HighwayExit_1_2_08_27_14_35_02",
+                "town_name": "Town12",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 17,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2017 and id=3717 at (x=-821.144, y=4808.604, z=371.537)",
+                        "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=3719 at (x=-820.404, y=4796.116, z=371.152)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=-799.493, y=4747.926, z=370.026)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 79.4,
+                    "score_penalty": 0.36,
+                    "score_composed": 28.584,
+                    "score_challenge_base": 0.0,
+                    "score_challenge_gate": 1.0,
+                    "score_challenge_penalty": 0.36,
+                    "score_challenge": 0.0
+                },
+                "common_facts": {
+                    "collision": true,
+                    "collision_penalty": 0.36,
+                    "outside_route": false,
+                    "running_red_light": false,
+                    "running_stop": false,
+                    "agent_blocked": true,
+                    "route_completed": false
+                },
+                "private_facts": {},
+                "score_detail": {
+                    "base_score": 0.0,
+                    "gate": 1.0,
+                    "penalty": 0.36,
+                    "final_score": 0.0,
+                    "scoring_mode": "standard_only_unsupported_scenario",
+                    "scenario_type": "HighwayExit"
+                },
+                "meta": {
+                    "route_length": 104.854,
+                    "duration_game": 77.3,
+                    "duration_system": 478.483,
+                    "scenario_type": "HighwayExit"
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_lidar",
+        "carla_radar"
+    ],
+    "values": [
+        "28.584",
+        "79.4",
+        "0.36",
+        "0.0",
+        "1.0",
+        "0.36",
+        "0.0",
+        "0.0",
+        "24.023",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "12.011",
+        "0.0",
+        "0.0",
+        "168.16"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Avg. challenge base score",
+        "Avg. challenge gate",
+        "Avg. challenge penalty",
+        "Avg. challenge final score",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Completed",
+            "infractions": {
+                "collisions_layout": 27.496,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 13.748,
+                "red_light": 0.0,
+                "stop_infraction": 13.748,
+                "outside_route_lanes": 0.029,
+                "min_speed_infractions": 274.956,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 12.15003,
+                "score_route": 100.0,
+                "score_penalty": 0.1215,
+                "score_challenge_base": 0.0,
+                "score_challenge_gate": 1.0,
+                "score_challenge_penalty": 0.2535,
+                "score_challenge": 0.0
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0,
+                "score_challenge_base": 0,
+                "score_challenge_gate": 0,
+                "score_challenge_penalty": 0,
+                "score_challenge": 0
+            },
+            "meta": {
+                "total_length": 72.739,
+                "duration_game": 25.35,
+                "duration_system": 170.166,
+                "exceptions": [],
+                "scenario_types": [
+                    "NonSignalizedJunctionLeftTurn"
+                ],
+                "challenge_common_facts": [
+                    {
+                        "route_id": "RouteScenario_2881_rep0",
+                        "scenario_type": "NonSignalizedJunctionLeftTurn",
+                        "facts": {
+                            "collision": true,
+                            "collision_penalty": 0.2535,
+                            "outside_route": true,
+                            "running_red_light": false,
+                            "running_stop": true,
+                            "agent_blocked": false,
+                            "route_completed": true
+                        }
+                    }
+                ],
+                "challenge_private_facts": [
+                    {
+                        "route_id": "RouteScenario_2881_rep0",
+                        "scenario_type": "NonSignalizedJunctionLeftTurn",
+                        "facts": {}
+                    }
+                ],
+                "challenge_score_breakdown": [
+                    {
+                        "route_id": "RouteScenario_2881_rep0",
+                        "scenario_type": "NonSignalizedJunctionLeftTurn",
+                        "score_detail": {
+                            "base_score": 0.0,
+                            "gate": 1.0,
+                            "penalty": 0.2535,
+                            "final_score": 0.0,
+                            "scoring_mode": "standard_only_unsupported_scenario",
+                            "scenario_type": "NonSignalizedJunctionLeftTurn"
+                        }
+                    }
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_2881_rep0",
+                "scenario_name": "NonSignalizedJunctionLeftTurn_1",
+                "weather_id": "15",
+                "save_name": "RouteScenario_2881_rep0_Town12_NonSignalizedJunctionLeftTurn_1_15_08_26_16_45_12",
+                "town_name": "Town12",
+                "status": "Completed",
+                "num_infractions": 25,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=traffic.stop and id=56 at (x=33.486, y=4834.147, z=372.172)",
+                        "Agent collided against object with type=traffic.speed_limit.30 and id=3625 at (x=17.191, y=4831.796, z=372.348)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.dodge.charger_2020 and id=3792 at (x=37.083, y=4844.869, z=372.122)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [
+                        "Agent ran a stop with id=469 at (x=43.263, y=4842.199, z=372.109)"
+                    ],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 29.16 meters (40.09% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.1215,
+                    "score_composed": 12.15003,
+                    "score_challenge_base": 0.0,
+                    "score_challenge_gate": 1.0,
+                    "score_challenge_penalty": 0.2535,
+                    "score_challenge": 0.0
+                },
+                "common_facts": {
+                    "collision": true,
+                    "collision_penalty": 0.2535,
+                    "outside_route": true,
+                    "running_red_light": false,
+                    "running_stop": true,
+                    "agent_blocked": false,
+                    "route_completed": true
+                },
+                "private_facts": {},
+                "score_detail": {
+                    "base_score": 0.0,
+                    "gate": 1.0,
+                    "penalty": 0.2535,
+                    "final_score": 0.0,
+                    "scoring_mode": "standard_only_unsupported_scenario",
+                    "scenario_type": "NonSignalizedJunctionLeftTurn"
+                },
+                "meta": {
+                    "route_length": 72.739,
+                    "duration_game": 25.35,
+                    "duration_system": 170.166,
+                    "scenario_type": "NonSignalizedJunctionLeftTurn"
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_lidar",
+        "carla_radar"
+    ],
+    "values": [
+        "12.15003",
+        "100.0",
+        "0.1215",
+        "0.0",
+        "1.0",
+        "0.2535",
+        "0.0",
+        "0.0",
+        "13.748",
+        "27.496",
+        "0.0",
+        "13.748",
+        "0.029",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "274.956"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Avg. challenge base score",
+        "Avg. challenge gate",
+        "Avg. challenge penalty",
+        "Avg. challenge final score",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

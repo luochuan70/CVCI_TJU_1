@@ -1,0 +1,223 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Failed",
+            "infractions": {
+                "collisions_layout": 159.608,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.0,
+                "red_light": 0.0,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.0,
+                "min_speed_infractions": 212.811,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 53.203,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 7.44783,
+                "score_route": 27.12,
+                "score_penalty": 0.274625,
+                "score_challenge_base": 0.0,
+                "score_challenge_gate": 1.0,
+                "score_challenge_penalty": 0.274625,
+                "score_challenge": 0.0
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0,
+                "score_challenge_base": 0,
+                "score_challenge_gate": 0,
+                "score_challenge_penalty": 0,
+                "score_challenge": 0
+            },
+            "meta": {
+                "total_length": 69.307,
+                "duration_game": 65.5,
+                "duration_system": 373.411,
+                "exceptions": [
+                    [
+                        "RouteScenario_2204_rep0",
+                        0,
+                        "Failed - Agent got blocked"
+                    ]
+                ],
+                "scenario_types": [
+                    "BlockedIntersection"
+                ],
+                "challenge_common_facts": [
+                    {
+                        "route_id": "RouteScenario_2204_rep0",
+                        "scenario_type": "BlockedIntersection",
+                        "facts": {
+                            "collision": true,
+                            "collision_penalty": 0.27462500000000006,
+                            "outside_route": false,
+                            "running_red_light": false,
+                            "running_stop": false,
+                            "agent_blocked": true,
+                            "route_completed": false
+                        }
+                    }
+                ],
+                "challenge_private_facts": [
+                    {
+                        "route_id": "RouteScenario_2204_rep0",
+                        "scenario_type": "BlockedIntersection",
+                        "facts": {}
+                    }
+                ],
+                "challenge_score_breakdown": [
+                    {
+                        "route_id": "RouteScenario_2204_rep0",
+                        "scenario_type": "BlockedIntersection",
+                        "score_detail": {
+                            "base_score": 0.0,
+                            "gate": 1.0,
+                            "penalty": 0.27462500000000006,
+                            "final_score": 0.0,
+                            "scoring_mode": "standard_only_unsupported_scenario",
+                            "scenario_type": "BlockedIntersection"
+                        }
+                    }
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_2204_rep0",
+                "scenario_name": "BlockedIntersection_1",
+                "weather_id": "14",
+                "save_name": "RouteScenario_2204_rep0_Town12_BlockedIntersection_1_14_08_26_13_45_59",
+                "town_name": "Town12",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 8,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.fence and id=0 at (x=2773.62, y=1752.34, z=345.91)",
+                        "Agent collided against object with type=static.fence and id=0 at (x=2773.609, y=1747.255, z=345.809)",
+                        "Agent collided against object with type=static.fence and id=0 at (x=2774.359, y=1734.416, z=345.538)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=2774.034, y=1734.245, z=345.534)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 27.12,
+                    "score_penalty": 0.274625,
+                    "score_composed": 7.44783,
+                    "score_challenge_base": 0.0,
+                    "score_challenge_gate": 1.0,
+                    "score_challenge_penalty": 0.274625,
+                    "score_challenge": 0.0
+                },
+                "common_facts": {
+                    "collision": true,
+                    "collision_penalty": 0.27462500000000006,
+                    "outside_route": false,
+                    "running_red_light": false,
+                    "running_stop": false,
+                    "agent_blocked": true,
+                    "route_completed": false
+                },
+                "private_facts": {},
+                "score_detail": {
+                    "base_score": 0.0,
+                    "gate": 1.0,
+                    "penalty": 0.27462500000000006,
+                    "final_score": 0.0,
+                    "scoring_mode": "standard_only_unsupported_scenario",
+                    "scenario_type": "BlockedIntersection"
+                },
+                "meta": {
+                    "route_length": 69.307,
+                    "duration_game": 65.5,
+                    "duration_system": 373.411,
+                    "scenario_type": "BlockedIntersection"
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_lidar",
+        "carla_radar"
+    ],
+    "values": [
+        "7.44783",
+        "27.12",
+        "0.274625",
+        "0.0",
+        "1.0",
+        "0.274625",
+        "0.0",
+        "0.0",
+        "0.0",
+        "159.608",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "53.203",
+        "0.0",
+        "0.0",
+        "212.811"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Avg. challenge base score",
+        "Avg. challenge gate",
+        "Avg. challenge penalty",
+        "Avg. challenge final score",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

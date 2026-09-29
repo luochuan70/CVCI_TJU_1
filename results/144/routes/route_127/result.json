@@ -1,0 +1,233 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Completed",
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.0,
+                "red_light": 0.0,
+                "stop_infraction": 8.763,
+                "outside_route_lanes": 0.0,
+                "min_speed_infractions": 175.257,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 80.0,
+                "score_route": 100.0,
+                "score_penalty": 0.8,
+                "score_challenge_base": 75.0,
+                "score_challenge_gate": 1.0,
+                "score_challenge_penalty": 1.0,
+                "score_challenge": 75.0
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0,
+                "score_challenge_base": 0,
+                "score_challenge_gate": 0,
+                "score_challenge_penalty": 0,
+                "score_challenge": 0
+            },
+            "meta": {
+                "total_length": 114.118,
+                "duration_game": 17.65,
+                "duration_system": 75.121,
+                "exceptions": [],
+                "scenario_types": [
+                    "CrazyBikeScenario"
+                ],
+                "challenge_common_facts": [
+                    {
+                        "route_id": "RouteScenario_127_rep0",
+                        "scenario_type": "CrazyBikeScenario",
+                        "facts": {
+                            "collision": false,
+                            "collision_penalty": 1.0,
+                            "outside_route": false,
+                            "running_red_light": false,
+                            "running_stop": true,
+                            "agent_blocked": false,
+                            "route_completed": true
+                        }
+                    }
+                ],
+                "challenge_private_facts": [
+                    {
+                        "route_id": "RouteScenario_127_rep0",
+                        "scenario_type": "CrazyBikeScenario",
+                        "facts": {
+                            "decelerate_response": true,
+                            "no_collision": true,
+                            "resume_route": false
+                        }
+                    }
+                ],
+                "challenge_score_breakdown": [
+                    {
+                        "route_id": "RouteScenario_127_rep0",
+                        "scenario_type": "CrazyBikeScenario",
+                        "score_detail": {
+                            "base_score": 75.0,
+                            "gate": 1.0,
+                            "penalty": 1.0,
+                            "final_score": 75.0
+                        }
+                    }
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_127_rep0",
+                "scenario_name": "CrazyBike_level2_day_sunny",
+                "weather_id": null,
+                "save_name": "RouteScenario_127_rep0_Town05_CrazyBike_level2_day_sunny_None_08_26_06_48_30",
+                "town_name": "Town05",
+                "status": "Completed",
+                "num_infractions": 21,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [
+                        "Agent ran a stop with id=59 at (x=88.856, y=2.008, z=0.0)"
+                    ],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one",
+                        "Average speed is 100% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.8,
+                    "score_composed": 80.0,
+                    "score_challenge_base": 75.0,
+                    "score_challenge_gate": 1.0,
+                    "score_challenge_penalty": 1.0,
+                    "score_challenge": 75.0
+                },
+                "common_facts": {
+                    "collision": false,
+                    "collision_penalty": 1.0,
+                    "outside_route": false,
+                    "running_red_light": false,
+                    "running_stop": true,
+                    "agent_blocked": false,
+                    "route_completed": true
+                },
+                "private_facts": {
+                    "decelerate_response": true,
+                    "no_collision": true,
+                    "resume_route": false
+                },
+                "score_detail": {
+                    "base_score": 75.0,
+                    "gate": 1.0,
+                    "penalty": 1.0,
+                    "final_score": 75.0
+                },
+                "meta": {
+                    "route_length": 114.118,
+                    "duration_game": 17.65,
+                    "duration_system": 75.121,
+                    "scenario_type": "CrazyBikeScenario"
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_lidar",
+        "carla_radar"
+    ],
+    "values": [
+        "80.0",
+        "100.0",
+        "0.8",
+        "75.0",
+        "1.0",
+        "1.0",
+        "75.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "8.763",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "175.257"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Avg. challenge base score",
+        "Avg. challenge gate",
+        "Avg. challenge penalty",
+        "Avg. challenge final score",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

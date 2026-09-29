@@ -5,13 +5,12 @@ build/
 dist/
 *.egg-info/
 
-# Runtime output is generated locally and is not source code.
-results/**
-!results/.gitkeep
+# Transient runtime logs are not source code. Final evaluator JSON files under
+# results/ are intentionally committed with the delivery.
 logs/
+results/reproduction_*/
+results/smoke_*/
 
-# The delivery directory contains these files, but the two 6 GB checkpoints
-# exceed ordinary GitHub object limits. Their hashes are committed in
-# WEIGHTS.sha256; use Git LFS or release storage when publishing remotely.
+# The delivery directory may contain these files, but the two 6 GB checkpoints
+# are distributed through the download link documented in README.md.
 weights/*.pth
-

@@ -16,11 +16,12 @@ The source project contained two external links: `weights` pointed at another pr
 - Frozen extreme-144 code, routes, historical controllers and checkpoint.
 - Current ordinary online agent, radar features, classifier model, router, local planner and all 44 class modules.
 - Both official route manifests.
+- All 144 extreme-route result JSON files and all 220 ordinary-route result JSON files.
 - Package verification script and focused tests.
 
 ## Intentionally excluded
 
-- Runtime logs and generated evaluator output.
+- Runtime logs and intermediate evaluator output.
 - Recorded videos, extracted frames and temporary visual diagnostics.
 - Python caches, pytest caches and stale lock files.
 - The historical baseline-results symlink.
@@ -28,12 +29,14 @@ The source project contained two external links: `weights` pointed at another pr
 
 These exclusions are not runtime dependencies.
 
+The 144 result set is unchanged from the reference package. For ordinary routes, newer terminal evaluator JSON files are used only where a complete five-route result set is available; the remaining route results are unchanged from the reference package.
+
 ## Logic preservation
 
 The delivery copies the current runtime trees byte-for-byte. The only launcher edits are portability wiring:
 
-1. prepend the repository root to `PYTHONPATH`, so `harness` and `ordinary_rules` resolve after relocation;
-2. default `CVCI_ORDINARY_CLASSIFIER_MODEL` to `data/classifier_model.json` inside the repository;
+1. keep all imported project modules beneath `codes/`, which is already on the launcher `PYTHONPATH`;
+2. default `CVCI_ORDINARY_CLASSIFIER_MODEL` to `codes/data/classifier_model.json` inside the repository;
 3. require that classifier file during preflight and print it in the preflight report.
 
 These edits reproduce the environment values previously supplied externally. They do not change classifier, planner, controller, thresholds, state machines or class-rule logic.
@@ -44,4 +47,4 @@ The competition document requires a runnable agent, required weights/checkpoints
 
 ## Frozen-144 protection
 
-The frozen route XML, extreme checkpoint and extreme-only source files retain their recorded hashes. The ordinary runtime is attached only in the ordinary branch. Packaging did not edit the extreme-only rules, checkpoint, thresholds, model-selection profile or route definition.
+The frozen route XML, extreme checkpoint and extreme-only source files are unchanged. The ordinary runtime is attached only in the ordinary branch. Packaging did not edit the extreme-only rules, checkpoint, thresholds, model-selection profile or route definition.
