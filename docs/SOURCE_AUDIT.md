@@ -41,6 +41,11 @@ The delivery copies the current runtime trees byte-for-byte. The only launcher e
 
 These edits reproduce the environment values previously supplied externally. They do not change classifier, planner, controller, thresholds, state machines or class-rule logic.
 
+The packaged MMCV and OpenPCDet shared objects have no absolute ELF RPATH or
+RUNPATH. They resolve PyTorch and CUDA libraries from the active, ABI-compatible
+Python/CUDA environment described in the README rather than from a build-host
+Conda directory.
+
 ## Rules affecting packaging
 
 The competition document requires a runnable agent, required weights/checkpoints, configuration and dependency instructions, a method description and inference/evaluation scripts. Evaluation is automated and must not rely on manual intervention or changes to the official runtime conditions. The ordinary benchmark score uses route completion multiplied by infraction penalty; the extreme benchmark uses scenario base score multiplied by collision penalty. The packaged launcher continues to call the official evaluator and preserves its raw JSON outputs.
