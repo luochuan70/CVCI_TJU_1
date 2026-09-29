@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Runtime output is generated locally and is not source code.
+results/**
+!results/.gitkeep
+logs/
+
+# The delivery directory contains these files, but the two 6 GB checkpoints
+# exceed ordinary GitHub object limits. Their hashes are committed in
+# WEIGHTS.sha256; use Git LFS or release storage when publishing remotely.
+weights/*.pth
+

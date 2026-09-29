@@ -1,0 +1,323 @@
+{
+  "all_12_exact_historical_fingerprints": true,
+  "historical_fingerprint_algorithm": {
+    "digest": "sha256_first_16_hex",
+    "missing_token": "<missing>",
+    "ordered_files": [
+      "cvci_auxiliary_system.py",
+      "cvci_scenario_classifier.py",
+      "cvci_rule_config.py",
+      "cvci_lidar_detector.py",
+      "cvci_object_tracker.py",
+      "drivetransformer_b2d_agent.py"
+    ],
+    "path_token": "basename"
+  },
+  "ledger_path": "external_provenance/historical_proven_controller_ledger.json",
+  "ledger_sha256": "cdbde346705dc94a8858b83bff6ff594c3af1c49738e21217c25c5daf0c6957a",
+  "macro_count": 12,
+  "macros": {
+    "avoid_a_disabled_vehicle": {
+      "historical_source_fingerprint": "bc99777e5cd719b0",
+      "macro_mean_scores": {
+        "score_challenge": 75.833333,
+        "score_challenge_base": 85.0,
+        "score_composed": 82.286792,
+        "score_penalty_percent": 87.083333,
+        "score_route": 93.455
+      },
+      "reversed_patch_call_count": 36,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/avoid_a_disabled_vehicle/analysis_summary.json",
+      "run_analysis_sha256": "ee9b9778bba9ac0125d9f09b5b599a33b553a94c70f14a2ad737d8d699e9a6a5",
+      "run_id": "20260720_121811_avoid_a_disabled_vehicle_20260720_disabled_existing_controller_baseline_batch1",
+      "snapshot": "historical_source_reconstructions/avoid_a_disabled_vehicle_bc99777e5cd719b0",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "5c6dc021447784612bf687a2dcb56b3bd0b53cb9123e3513db3487d53c44d194",
+        "cvci_scenario_classifier.py": "c6a2c22e830f784bc0edd31386fefc6c375f90428a62bc4e52267e9a4c17af37"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-20T04:18:11Z"
+    },
+    "blind_spot_hidden_car": {
+      "historical_source_fingerprint": "411645c754544973",
+      "macro_mean_scores": {
+        "score_challenge": 94.166667,
+        "score_challenge_base": 94.166667,
+        "score_composed": 100.0,
+        "score_penalty_percent": 100.0,
+        "score_route": 100.0
+      },
+      "reversed_patch_call_count": 24,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/blind_spot_hidden_car/analysis_summary.json",
+      "run_analysis_sha256": "565c9696f713c6d436bb8606c51d70a1505fdca4c09200681a21b5669269c999",
+      "run_id": "20260720_222758_blind_spot_hidden_car_20260720_fix291_audit_owner_tail_priority_batch4",
+      "snapshot": "historical_source_reconstructions/blind_spot_hidden_car_411645c754544973",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "850a9e2b4b8afcaae5b8163f6897b41c18caf3af359d5c895a607bdc014da9f3",
+        "cvci_scenario_classifier.py": "0b642ff36b099ae1072c25cdbb15eb326ea36dd83af08e19532e66f5605f46ab"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-20T14:27:58Z"
+    },
+    "crazy_motor": {
+      "historical_source_fingerprint": "a684c73acb273ea8",
+      "macro_mean_scores": {
+        "score_challenge": 75.0,
+        "score_challenge_base": 75.0,
+        "score_composed": 80.0,
+        "score_penalty_percent": 80.0,
+        "score_route": 100.0
+      },
+      "reversed_patch_call_count": 22,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/crazy_motor/analysis_summary.json",
+      "run_analysis_sha256": "ef3e9449e986695d00fcc4faae825ffd688b2d4fdc3c0120731cee94ac189ee8",
+      "run_id": "20260720_210657_crazy_motor_20260720_fix288_observed_red_settle_exclusion_batch8",
+      "snapshot": "historical_source_reconstructions/crazy_motor_a684c73acb273ea8",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "b8b0a14b7ff7817dab6edf0fc42c91428f044889e738add02d135e6eec3f18db",
+        "cvci_scenario_classifier.py": "7fe21275d6829e8a5a5a74bf330dd4feabaec9c77720e600b61a03acc6fc8a4e"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-20T13:06:57Z"
+    },
+    "four_students_crossing_the_road": {
+      "historical_source_fingerprint": "bc99777e5cd719b0",
+      "macro_mean_scores": {
+        "score_challenge": 86.25,
+        "score_challenge_base": 86.25,
+        "score_composed": 85.0,
+        "score_penalty_percent": 85.0,
+        "score_route": 100.0
+      },
+      "reversed_patch_call_count": 36,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/four_students_crossing_the_road/analysis_summary.json",
+      "run_analysis_sha256": "3da698323dfccd2b977527a1a0ec65ada80cfaf6ba5720c42ba131927b3c8833",
+      "run_id": "20260720_110651_four_students_crossing_the_road_20260720_four_students_audit_owner_alignment_batch10",
+      "snapshot": "historical_source_reconstructions/four_students_crossing_the_road_bc99777e5cd719b0",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "5c6dc021447784612bf687a2dcb56b3bd0b53cb9123e3513db3487d53c44d194",
+        "cvci_scenario_classifier.py": "c6a2c22e830f784bc0edd31386fefc6c375f90428a62bc4e52267e9a4c17af37"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-20T03:06:51Z"
+    },
+    "high_speed_reckless_lane_cutting": {
+      "historical_source_fingerprint": "66ba3029c3fe50e9",
+      "macro_mean_scores": {
+        "score_challenge": 100.0,
+        "score_challenge_base": 100.0,
+        "score_composed": 100.0,
+        "score_penalty_percent": 100.0,
+        "score_route": 100.0
+      },
+      "reversed_patch_call_count": 127,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/high_speed_reckless_lane_cutting/analysis_summary.json",
+      "run_analysis_sha256": "90527b20bc94c107c3c88598e11c3e699299cb6e3798dda43e8caa688cfb8c50",
+      "run_id": "20260719_063329_high_speed_reckless_lane_cutting_20260719_explicit_dense_route_batch2",
+      "snapshot": "historical_source_reconstructions/high_speed_reckless_lane_cutting_66ba3029c3fe50e9",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "0282c9090ff0c3fd0780dd1fe4d8f9ad6b5a4f2c61636b509b39f52517bf7ae6",
+        "cvci_scenario_classifier.py": "36a790a34d1bc1f3514155dc239597a65c5f7f91b8f91ddba6fd0be219ec13f5"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-18T22:33:29Z"
+    },
+    "high_speed_temporary_construction": {
+      "historical_source_fingerprint": "71356af1b9850e71",
+      "macro_mean_scores": {
+        "score_challenge": 95.1875,
+        "score_challenge_base": 100.0,
+        "score_composed": 86.831994,
+        "score_penalty_percent": 95.1875,
+        "score_route": 91.285
+      },
+      "reversed_patch_call_count": 130,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/high_speed_temporary_construction/analysis_summary.json",
+      "run_analysis_sha256": "07810c0a37764f38ae6d2ca1033e2225eb8afe533f43a6f96cd2822928b1ebec",
+      "run_id": "20260719_050250_high_speed_temporary_construction_20260719_post_cone_rejoin_batch4",
+      "snapshot": "historical_source_reconstructions/high_speed_temporary_construction_71356af1b9850e71",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "392517d79208b7dc9d24d34d67e73b2bd42624e8c250c8363c017c0ed2c27c4f",
+        "cvci_scenario_classifier.py": "36a790a34d1bc1f3514155dc239597a65c5f7f91b8f91ddba6fd0be219ec13f5"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-18T21:02:50Z"
+    },
+    "highway_accident_vehicle": {
+      "historical_source_fingerprint": "72fc2038234b2fd1",
+      "macro_mean_scores": {
+        "score_challenge": 94.166667,
+        "score_challenge_base": 94.166667,
+        "score_composed": 98.330633,
+        "score_penalty_percent": 98.330633,
+        "score_route": 100.0
+      },
+      "reversed_patch_call_count": 119,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/highway_accident_vehicle/analysis_summary.json",
+      "run_analysis_sha256": "115520d5f2f55a45820819940c14ad59ff702bd67b81239c58b60aaac13ea05d",
+      "run_id": "20260719_104642_highway_accident_vehicle_20260719_side_cluster_owner_batch4",
+      "snapshot": "historical_source_reconstructions/highway_accident_vehicle_72fc2038234b2fd1",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "0416d318a80d5e4d733ecbaeecc66279197bef5d3f3e11fa4de0f871e2be7475",
+        "cvci_scenario_classifier.py": "36a790a34d1bc1f3514155dc239597a65c5f7f91b8f91ddba6fd0be219ec13f5"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-19T02:46:42Z"
+    },
+    "missing_car": {
+      "historical_source_fingerprint": "7757d249b82bd228",
+      "macro_mean_scores": {
+        "score_challenge": 82.5,
+        "score_challenge_base": 95.833333,
+        "score_composed": 86.666667,
+        "score_penalty_percent": 86.666667,
+        "score_route": 100.0
+      },
+      "reversed_patch_call_count": 169,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/missing_car/analysis_summary.json",
+      "run_analysis_sha256": "9259aac451b90fc5145a850fda0006a4623f4d4fb0ba021bbb6e936f1ced3656",
+      "run_id": "20260718_224249_missing_car_20260718_shared_rule_batch4",
+      "snapshot": "historical_source_reconstructions/missing_car_7757d249b82bd228",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "0a5bf21208c9a6af1891af36a276d2d370b71c9cc920d50cd4a64a3320cee600",
+        "cvci_scenario_classifier.py": "36a790a34d1bc1f3514155dc239597a65c5f7f91b8f91ddba6fd0be219ec13f5"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-18T14:42:49Z"
+    },
+    "reverse_vehicle": {
+      "historical_source_fingerprint": "810a515ae2f7bc16",
+      "macro_mean_scores": {
+        "score_challenge": 81.333333,
+        "score_challenge_base": 88.333333,
+        "score_composed": 85.647833,
+        "score_penalty_percent": 90.0,
+        "score_route": 92.960833
+      },
+      "reversed_patch_call_count": 30,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/reverse_vehicle/analysis_summary.json",
+      "run_analysis_sha256": "0ba712f23368f7da33bdb92cf43a14187a2dbe027df2f6b9dd1ee26d7c46c55f",
+      "run_id": "20260720_171828_reverse_vehicle_20260720_fix281_persistent_owner_batch4",
+      "snapshot": "historical_source_reconstructions/reverse_vehicle_810a515ae2f7bc16",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "1cbb5a133d7614832d8037af7066a623835ab45cb3b51867b97ac1ddce5eb861",
+        "cvci_scenario_classifier.py": "527c54e69a364deeded1cfa3b027cff6e33300775696f76dfe0323eaec33d627"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-20T09:18:28Z"
+    },
+    "roundabout": {
+      "historical_source_fingerprint": "1a3e558a8b959025",
+      "macro_mean_scores": {
+        "score_challenge": 100.0,
+        "score_challenge_base": 100.0,
+        "score_composed": 87.665948,
+        "score_penalty_percent": 87.66595,
+        "score_route": 100.0
+      },
+      "reversed_patch_call_count": 56,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/roundabout/analysis_summary.json",
+      "run_analysis_sha256": "adcaa4bc0cf3a81191a7e53a23c483b44b8a21485d3286f032227045481f71c2",
+      "run_id": "20260720_023819_roundabout_20260720_roundabout_a28_macro_closed_loop_retry1",
+      "snapshot": "historical_source_reconstructions/roundabout_1a3e558a8b959025",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "74c4fa45bdba333b189ec26ba29ca16c9474dc967bf9de9abd215012e99a3a9e",
+        "cvci_scenario_classifier.py": "36a790a34d1bc1f3514155dc239597a65c5f7f91b8f91ddba6fd0be219ec13f5"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-19T18:38:19Z"
+    },
+    "slanted_motor_and_children": {
+      "historical_source_fingerprint": "26811a99d7437395",
+      "macro_mean_scores": {
+        "score_challenge": 100.0,
+        "score_challenge_base": 100.0,
+        "score_composed": 94.203125,
+        "score_penalty_percent": 94.203142,
+        "score_route": 100.0
+      },
+      "reversed_patch_call_count": 32,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/slanted_motor_and_children/analysis_summary.json",
+      "run_analysis_sha256": "a4b9b63f1a73821df283e5e905de858856ef094ea0c7349fe088df187a771bce",
+      "run_id": "20260720_150703_slanted_motor_and_children_20260720_fix279_cautious_centerline_batch7",
+      "snapshot": "historical_source_reconstructions/slanted_motor_and_children_26811a99d7437395",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "95725919d19a081a7b83bf73fde800d9b7831a35ea9dcd9ddad98e1eecce392f",
+        "cvci_scenario_classifier.py": "527c54e69a364deeded1cfa3b027cff6e33300775696f76dfe0323eaec33d627"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-20T07:07:03Z"
+    },
+    "trucks_encountered_during_construction": {
+      "historical_source_fingerprint": "1111f8943b1b527c",
+      "macro_mean_scores": {
+        "score_challenge": 91.686008,
+        "score_challenge_base": 99.43724,
+        "score_composed": 91.688381,
+        "score_penalty_percent": 91.714067,
+        "score_route": 95.484167
+      },
+      "reversed_patch_call_count": 89,
+      "run_analysis_path": "external_provenance/macro_closed_loop_runs/trucks_encountered_during_construction/analysis_summary.json",
+      "run_analysis_sha256": "820b70a26e2cea2bdb0bb8b4f3322af10f218fb88938eaeeee4218cb05a42535",
+      "run_id": "20260719_150720_trucks_encountered_during_construction_20260719_between_cones_truck_corridor_batch2",
+      "snapshot": "historical_source_reconstructions/trucks_encountered_during_construction_1111f8943b1b527c",
+      "source_sha256": {
+        "cvci_auxiliary_system.py": "b7510da70036163519d32c8668362fa06825f0f58c15d6332a0e936e84f3696f",
+        "cvci_scenario_classifier.py": "36a790a34d1bc1f3514155dc239597a65c5f7f91b8f91ddba6fd0be219ec13f5"
+      },
+      "status": "EXACT_FINGERPRINT_MATCH",
+      "syntax": {
+        "cvci_auxiliary_system.py": "PASS",
+        "cvci_scenario_classifier.py": "PASS"
+      },
+      "target_cutoff_utc": "2026-07-19T07:07:20Z"
+    }
+  },
+  "schema_version": 1,
+  "status": "PASS"
+}

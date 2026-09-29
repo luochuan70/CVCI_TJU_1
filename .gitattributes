@@ -1,0 +1,4 @@
+# Preserve the audited vendor/runtime bytes on every platform.  Shared
+# libraries retain the LFS filter below.
+* -text
+*.so filter=lfs diff=lfs merge=lfs -text
